@@ -97,6 +97,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "PracticaParcialI:build:production",
+            "firebaseProject": "laboiv-federicogutierrez",
+            "firebaseHostingSite": "laboiv-federicogutierrez"
+          }
         }
       }
     }

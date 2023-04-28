@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "laboiv-federicogutierrez": {
+      "hosting": {
+        "PracticaParcialI": [
+          "laboiv-federicogutierrez"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "laboiv-federicogutierrez"
+  }
+}

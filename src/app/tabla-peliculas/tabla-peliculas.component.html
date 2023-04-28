@@ -1,0 +1,15 @@
+<article>
+    <table>
+        <thead>
+            <th>Nombre</th>
+            <th>Fecha lanzamiento</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pelicula of peliculas">
+                <td>{{pelicula.nombre}}</td>
+                <td>{{pelicula.fechaEstreno}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</article>
